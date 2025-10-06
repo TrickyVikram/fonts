@@ -1,0 +1,19 @@
+# This is a placeholder for Maithili-Regular.ttf
+# In actual workflow, this would be a binary TTF file generated from font design software
+
+# Unicode ranges to support:
+# - Devanagari: U+0900-U+097F
+# - Devanagari Extended: U+A8E0-U+A8FF
+# - Basic Latin: U+0020-U+007F
+# - Latin Extended: U+00A0-U+00FF
+
+# Key Maithili characters to include:
+# क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
+# अ आ इ ई उ ऊ ए ऐ ओ औ अं अः
+# ०१२३४५६७८९
+
+# Font metrics:
+# - UPM: 1000
+# - Ascender: 800
+# - Descender: -200
+# - Line gap: 200

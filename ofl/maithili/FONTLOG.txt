@@ -1,0 +1,43 @@
+FONTLOG for the Maithili font
+
+This file provides detailed information on the Maithili font Software.
+This information should be distributed along with the Maithili fonts
+and any derivative works.
+
+Basic Font Information
+
+Maithili is a Unicode typeface family that supports languages that use
+the Devanagari script, specifically optimized for the Maithili language.
+
+The Maithili project aims to provide a comprehensive set of fonts for 
+the Maithili language community. The font includes:
+
+- Full Devanagari character support for Maithili
+- Traditional letterforms respecting cultural aesthetics
+- Proper rendering of complex conjuncts
+- Optimized metrics for readability
+
+More specifically, this release supports the following Unicode ranges:
+
+- Devanagari (U+0900-U+097F)
+- Devanagari Extended (U+A8E0-U+A8FF)
+- Vedic Extensions (U+1CD0-U+1CFF)
+
+ChangeLog
+
+7 October 2024 (Vikram Kumar) Maithili v1.000
+- Initial release
+- Complete Devanagari character set
+- Basic Latin support
+- Regular and Bold weights
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Vikram Kumar
+E: vikram@example.com
+W: https://github.com/vikramkumar
+D: Original Designer
