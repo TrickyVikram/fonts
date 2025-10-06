@@ -5,6 +5,7 @@
 ### Phase 1: Planning & Research
 
 #### 1.1 Character Set Analysis
+
 ```
 Essential Maithili Characters:
 - Basic Consonants: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
@@ -15,6 +16,7 @@ Essential Maithili Characters:
 ```
 
 #### 1.2 Traditional References
+
 - Study traditional Maithili manuscripts
 - Analyze existing Devanagari fonts
 - Research regional variations in letterforms
@@ -22,12 +24,15 @@ Essential Maithili Characters:
 ### Phase 2: Font Design Tools Setup
 
 #### 2.1 Recommended Software
+
 1. **FontForge** (Free)
+
    - Download: https://fontforge.org/
    - Best for beginners
    - Cross-platform
 
 2. **Glyphs** (Mac, Paid)
+
    - Professional tool
    - Excellent for complex scripts
    - Unicode support
@@ -37,12 +42,14 @@ Essential Maithili Characters:
    - Advanced features
 
 #### 2.2 Alternative Tools
+
 - **BirdFont** (Free, simple)
 - **Adobe Illustrator + Fontself** (Vector-based)
 
 ### Phase 3: Design Process
 
 #### 3.1 Base Character Design
+
 ```
 Priority Order:
 1. Basic consonants (क ख ग...)
@@ -53,12 +60,14 @@ Priority Order:
 ```
 
 #### 3.2 Design Principles
+
 - **Consistency**: Same stroke width throughout
 - **Readability**: Clear distinction between similar characters
 - **Cultural Authenticity**: Respect traditional forms
 - **Modern Adaptation**: Optimize for digital screens
 
 #### 3.3 Technical Specifications
+
 ```
 Font Metrics:
 - Units Per Em (UPM): 1000
@@ -72,6 +81,7 @@ Font Metrics:
 ### Phase 4: Unicode Implementation
 
 #### 4.1 Unicode Ranges to Cover
+
 ```
 Primary:
 - Devanagari: U+0900-U+097F
@@ -83,6 +93,7 @@ Secondary:
 ```
 
 #### 4.2 Character Mapping
+
 ```
 Examples:
 U+0915 → क (ka)
@@ -95,6 +106,7 @@ U+093F → ि (i sign)
 ### Phase 5: OpenType Features
 
 #### 5.1 Essential Features
+
 ```
 - 'liga' (Standard Ligatures)
 - 'akhn' (Akhands)
@@ -111,6 +123,7 @@ U+093F → ि (i sign)
 ```
 
 #### 5.2 Common Conjuncts for Maithili
+
 ```
 क्क, क्त, क्र, क्ष, त्त, त्र, द्द, द्व, न्न, ष्ट, etc.
 ```
@@ -118,6 +131,7 @@ U+093F → ि (i sign)
 ### Phase 6: Testing & Validation
 
 #### 6.1 Test Text Samples
+
 ```
 Basic: अआइईउऊएऐओऔअंअः
 Consonants: कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह
@@ -126,6 +140,7 @@ Sample Text: मैथिली भाषा बिहार आ नेपाल
 ```
 
 #### 6.2 Testing Tools
+
 - **FontValidator** (Microsoft)
 - **FontBakery** (Google Fonts)
 - **HarfBuzz** (Text shaping)
@@ -133,6 +148,7 @@ Sample Text: मैथिली भाषा बिहार आ नेपाल
 ### Phase 7: Export & Optimization
 
 #### 7.1 Export Settings
+
 ```
 Format: TrueType (.ttf)
 Hinting: Auto-hint enabled
@@ -141,6 +157,7 @@ Compression: Optimized
 ```
 
 #### 7.2 Font Validation
+
 - Check Unicode compliance
 - Validate OpenType features
 - Test rendering in different applications
@@ -149,6 +166,7 @@ Compression: Optimized
 ### Phase 8: Repository Setup
 
 #### 8.1 GitHub Repository Structure
+
 ```
 maithili-font/
 ├── sources/
@@ -172,6 +190,7 @@ maithili-font/
 ```
 
 #### 8.2 Required Files for Google Fonts
+
 - Font files (.ttf)
 - OFL.txt (license)
 - METADATA.pb
@@ -181,6 +200,7 @@ maithili-font/
 ### Phase 9: Submission Process
 
 #### 9.1 Pre-submission Checklist
+
 - [ ] Font renders correctly in major applications
 - [ ] All required characters included
 - [ ] OpenType features working
@@ -189,6 +209,7 @@ maithili-font/
 - [ ] Repository properly organized
 
 #### 9.2 Google Fonts Submission
+
 1. Fork fonts repository
 2. Add font family folder
 3. Include all required files
@@ -199,12 +220,14 @@ maithili-font/
 ### Phase 10: Tools & Resources
 
 #### 10.1 Learning Resources
+
 - **Unicode Standard**: https://unicode.org/
 - **Devanagari Script**: https://unicode.org/charts/PDF/U0900.pdf
 - **OpenType Spec**: https://docs.microsoft.com/en-us/typography/opentype/
 - **Google Fonts Guide**: https://googlefonts.github.io/gf-guide/
 
 #### 10.2 Testing Websites
+
 - **Devanagari Test Page**: Create custom test pages
 - **Font Squirrel Generator**: For web font generation
 - **Google Fonts API**: For testing integration
